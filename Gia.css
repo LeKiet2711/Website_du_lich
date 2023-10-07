@@ -1,0 +1,48 @@
+.contentprice{
+    color: rgb(8, 115, 187);
+    font-size: 24px;
+    font-weight: 1000;
+    padding-left: 7px;
+}
+
+.content-oldprice{
+    color: #888;
+    font-size: 17px;
+    margin-top: 4px;
+    text-decoration: line-through;
+}
+
+.date{
+    color: #888;
+    font-size: 17px;
+    margin-top: 4px;
+    
+}
+
+/* .content3{
+    color: rgb(8, 115, 187);
+    font-size: 24px;
+    font-weight: 1000;
+    padding-left: 7px;
+}
+
+.content4{
+    color: rgb(8, 115, 187);
+    font-size: 24px;
+    font-weight: 1000;
+    padding-left: 7px;
+}
+
+.content5{
+    color: rgb(8, 115, 187);
+    font-size: 24px;
+    font-weight: 1000;
+    padding-left: 7px;
+}
+
+.content6{
+    color: rgb(8, 115, 187);
+    font-size: 24px;
+    font-weight: 1000;
+    padding-left: 7px;
+} */

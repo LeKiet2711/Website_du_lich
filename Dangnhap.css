@@ -1,0 +1,280 @@
+
+.ctn{
+    height: auto;
+    width: auto;
+}
+.ctn2{
+    margin: auto;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    /* position: relative; */
+    text-align: center;
+}
+.tittle{
+    color: dark;
+}
+.sign_in{
+    margin: 0 25px 0 25px;
+    box-sizing: border-box;
+}
+button{
+    color: white;
+    background-color: aqua;
+}
+.size{
+    width: 300px;
+    height: 50px;
+}
+.color{
+    font-size: 15px;
+    color: aqua;
+}
+input{
+    width: 300px;
+    height: 50px;
+}
+.sign_in a{
+    color: aqua;
+}
+.fb_gg{
+    margin-bottom: 20px;
+}
+.fb{
+    font: bold 25px ;
+    padding: 10px 50px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+.gg{
+    font: bold 50px ;
+    padding: 10px 50px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+}
+
+.header{
+    max-width: auto;
+    height: 134px;
+    background: linear-gradient(#41c9e1, #10538e);
+    margin:0 auto;
+}
+.header-one{
+    width: 150px;
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-left: 40px;
+    float: left;
+    margin-bottom: 22px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.header-two{
+    float: right;
+    font-size:15px;
+    margin-right:10px;
+    padding-top: 5px;
+    margin-top: -10px;
+}
+.header-two a{
+    text-decoration: none;
+    color:black;
+}
+.header-two ul li{
+    list-style: none;
+    float: right;
+    padding-left: 15px;
+        
+}
+
+.header-one a{
+    text-decoration:none;
+    color:white;
+}
+.DK{
+    background-color: white;
+    width:110px;
+    padding-right: 15px;
+    text-align: center;
+    border-radius: 5px;
+    height:40px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.DN{
+    background-color: white;
+    padding-right: 12px;
+    margin-left: 15px;
+    width:110px;
+    text-align: center;
+    border-radius: 5px;
+    height:40px;
+    padding-top: 8px;
+    margin-top: 20px;
+}
+.DN:hover{
+    border: 1px solid black;
+    background-color:deepskyblue;
+}
+.DK:hover{
+    border: 1px solid black;
+    background-color: deepskyblue;
+}
+
+/*Thanh chia*/
+.chia{
+    clear: both;
+    border-top: 1px solid aqua;
+    width: auto;
+    border-spacing: none;
+}
+/*set up search bar*/
+.search{
+    padding-top: 20px;
+    float:left;
+}
+.search input{
+    width:400px;
+    height:25px;
+    margin-top:-15px;
+    border: 0px;
+    outline: none;
+}
+.search button{
+    height:25px;
+    margin-left: -25px;
+    background-color: aqua;
+    border: 0px;
+}
+/*set up thanh main menu*/
+#main-menu{
+    display:flex;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+#main-menu li {
+    position:relative;
+}
+#main-menu li a{
+    color:#f8f8f8;
+    display:block;
+    padding:16px 20px;
+    text-decoration: none;
+    
+}
+/*Menu con gốc*/
+#main-menu ul.sub-menu{
+    position:absolute;
+    background: white;
+    padding:15px 0px;
+    list-style: none;
+    width:200px;
+    border: 1px solid #707070;
+    display:none;
+}
+
+#main-menu ul.sub-menu a{
+    padding:8px 15px;
+    color: black;
+    left:0;
+}
+
+/* #main-menu ul.sub-menu li:last-child a{
+    border: none;
+}
+#main-menu ul.sub-menu li:hover>a{
+    border-bottom: 1px solid powderblue;
+    
+}
+#main-menu ul.sub-menu li:last-child:hover a{
+    border:none;
+} 
+*/
+
+/*Chuyển và tăng kích thước vị trí menu con (mặc định chồng lên nhau)*/
+#main-menu ul.sub-menu ul.sub-menu{
+    left:200px;
+    top:-15px;
+    height: 60px;
+}
+#main-menu ul.sub-menu ul.sub-menu2{
+    left:200px;
+    top:-16px;
+    height: 280px;
+    margin-top: 0px;
+    padding-bottom: 200px;
+}
+#main-menu ul.sub-menu ul.sub-menu3{
+    left:200px;
+    top:-5px;
+    height: 270px;
+}
+/*Hiệu ứng chữ menu con đổi màu khi chuột hover qua*/
+#main-menu li ul.sub-menu a:hover{
+    color:rgb(101, 207, 207);
+}
+/*Hiện từng cấp menu*/
+#main-menu li:hover>ul.sub-menu{
+    display:block;
+}
+#main-menu li:hover>ul.sub-menu2{
+    display:block;
+}
+#main-menu li:hover>ul.sub-menu3{
+    display:block;
+}
+#main-menu>li>a:hover{
+    background-color: rgba(0, 255, 255, 0.3);
+}
+/*set up menu con cho Tour*/
+#main-menu ul.sub-menu2{
+    position:absolute;
+    background: white;
+    padding:15px 0px;
+    list-style: none;
+    width:200px;
+    border: 1px solid #707070;
+    display:none;
+}
+#main-menu ul.sub-menu3{
+    position:absolute;
+    background: white;
+    padding:15px 0px;
+    list-style: none;
+    width:200px;
+    border: 1px solid #707070;
+    display:none;
+}
+.fa-regular{
+    height: 0px;
+    color:rgb(63, 69, 69);
+    padding-left: 10px;
+
+}
+
+.buttonsearch{
+    width: 350px;
+    height: 50px;
+    background-color: rgb(36, 174, 174);
+    font-weight: 600;
+    color: white;
+    border: initial;
+}
+
+.Trangchu-Dangnhap{
+    background-color: rgba(170, 181, 181, 0.3);
+    width: auto;
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.row li a{
+    text-decoration: none;
+}

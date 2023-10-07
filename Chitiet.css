@@ -1,0 +1,172 @@
+.Chitiet1{
+    position: absolute;
+    left: 0;
+    width: 296px;
+    height:160px;
+    padding-left: 50px;
+    padding-top: 60px;
+    text-align: center;
+    margin-top: -200px;
+    opacity: 0;
+    transform: scale(1.5);
+    
+}
+.Chitiet1:hover{
+    opacity: 1;
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out 0.2s;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.Chitiet1 button{
+    border-radius: 10px;
+    border: 0px solid;
+    font-size: 12px;
+    background-color: rgb(8, 195, 205);
+    /* font-weight: 200px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Chitiet2{
+    position: absolute;
+    left: 0;
+    width: 246px;
+    height:160px;
+    padding-left: 5px;
+    padding-top: 60px;
+    text-align: center;
+    margin-top: -200px;
+    margin-left: 510px;
+    opacity: 0;
+    transform: scale(1.5);
+    
+}
+.Chitiet2:hover{
+    opacity: 1;
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out 0.2s;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.Chitiet2 button{
+    border-radius: 10px;
+    border: 0px solid;
+    font-size: 12px;
+    background-color: rgb(8, 195, 205);
+    /* font-weight: 200px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.Chitiet3{
+    position: absolute;
+    left: 0;
+    width: 246px;
+    height:160px;
+    padding-left: 5px;
+    padding-top: 60px;
+    text-align: center;
+    margin-top: -200px;
+    margin-left: 955px;
+    opacity: 0;
+    transform: scale(1.5);
+    
+}
+.Chitiet3:hover{
+    opacity: 1;
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out 0.2s;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.Chitiet3 button{
+    border-radius: 10px;
+    border: 0px solid;
+    font-size: 12px;
+    background-color: rgb(8, 195, 205);
+    /* font-weight: 200px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Chitiet4{
+    position: absolute;
+    left: 0;
+    width: 296px;
+    height:160px;
+    padding-left: 50px;
+    padding-top: 60px;
+    text-align: center;
+    margin-top: -200px;
+    opacity: 0;
+    transform: scale(1.5);
+    
+}
+.Chitiet4:hover{
+    opacity: 1;
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out 0.2s;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.Chitiet4 button{
+    border-radius: 10px;
+    border: 0px solid;
+    font-size: 12px;
+    background-color: rgb(8, 195, 205);
+    /* font-weight: 200px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Chitiet5{
+    position: absolute;
+    left: 0;
+    width: 246px;
+    height:160px;
+    padding-left: 5px;
+    padding-top: 60px;
+    text-align: center;
+    margin-top: -200px;
+    margin-left: 510px;
+    opacity: 0;
+    transform: scale(1.5);
+    
+}
+.Chitiet5:hover{
+    opacity: 1;
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out 0.2s;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.Chitiet5 button{
+    border-radius: 10px;
+    border: 0px solid;
+    font-size: 12px;
+    background-color: rgb(8, 195, 205);
+    /* font-weight: 200px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Chitiet6{
+    position: absolute;
+    left: 0;
+    width: 246px;
+    height:160px;
+    padding-left: 5px;
+    padding-top: 60px;
+    text-align: center;
+    margin-top: -200px;
+    margin-left: 955px;
+    opacity: 0;
+    transform: scale(1.5);
+    
+}
+.Chitiet6:hover{
+    opacity: 1;
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out 0.2s;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.Chitiet6 button{
+    border-radius: 10px;
+    border: 0px solid;
+    font-size: 12px;
+    background-color: rgb(8, 195, 205);
+    /* font-weight: 200px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
